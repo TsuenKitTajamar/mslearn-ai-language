@@ -1,6 +1,6 @@
 This folder contains Python code
 
-Update the configuration values to include the  **endpoint** and a **key** from the Azure Language resource you created (available on the **Keys and Endpoint** page for your Azure AI Language resource in the Azure portal). The file should already contain the project and deployment names for your text classification model.
+Update the configuration values to include the  **endpoint** and a **key** from the Azure Language resource you created (available on the **Keys and Endpoint** page for your Azure AI Language resource in the Azure portal). The file should already contain the project and deployment names for your custom entity model.
 
 Save the `.env`configuration file.
 
@@ -38,7 +38,7 @@ test4.txt
         Entity '$150' has category 'Price' with confidence score of '0.79'
         Entity 'Portland' has category 'Location' with confidence score of '0.74'
 
-        
+
 test5.txt
         Entity 'Coffee maker' has category 'ItemForSale' with confidence score of '0.8'
         Entity '$50' has category 'Price' with confidence score of '0.9'
